@@ -28,19 +28,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <h2>Configure Roles</h2>
-<h4>Step 1 -  Download osTicket from the Installation Files Folder</h4>
+<h4>Step 1 -  Admin Panel -> Agents -> Roles</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
-<h4>Step 2 - Extract and copy “upload” folder to c:\inetpub\wwwroot</h4>
+<h4>Step 2 - Supreme Admin</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
-<h4>Step 3 - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”</h4>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
 <p>
 
 <h4>Reload IIS (Open IIS, Stop and Start the server)</h4>
@@ -50,7 +45,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <h2>Configure Departments</h2>
-On the right, click “Browse *:80”
+<h4>Admin Panel -> Agents -> Departments</h4>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+
+<h4>System Administrators</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
@@ -58,31 +58,27 @@ On the right, click “Browse *:80”
 
 
 <h2>Configure Teams</h2>
-<h4>Go back to IIS, sites -> Default -> osTicket</h4>
+<h4>Admin Panel -> Agents -> Teams</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
-<h4>Double-click PHP Manager</h4>
+<h4>Level I Support</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 
-<h4>Click “Enable or disable an extension”</h4>
-<p>- Enable: php_imap.dll</p>
-<p>- Enable: php_intl.dll</p>
-<p>- Enable: php_opcache.dll</p>
-<p>- Refresh the osTicket site in your browse, observe the changes</p>
+<h4>Level II Support</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <h2>Allow anyone to create tickets</h2>
-<h4>- From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php</h4>
+<h4>- Admin Panel -> Settings -> User Settings</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
-<h4>- From: To: C:\inetpub\wwwroot\osTicket\include\ost-config.php</h4>
+<h4>- Registration Required: Require registration and login to create tickets </h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
@@ -90,11 +86,11 @@ On the right, click “Browse *:80”
 
 
 <h2>Configure Agents (workers)</h2>
-<h4>- Disable inheritance -> Remove All</h4>
+<h4>- Admin Panel -> Agents -> Add New</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
-<h4>- New Permissions -> Everyone -> All</h4>
+<h4>-Jane and John</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
@@ -102,11 +98,11 @@ On the right, click “Browse *:80”
 
 
 <h2>Configure Users (customers)</h2>
-<h4>- Name Helpdesk</h4>
+<h4>- Agent Panel -> Users -> Add New</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
-<h4>- Default email (receives email from customers)</h4>
+<h4>- Karen and Ken</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
@@ -114,21 +110,11 @@ On the right, click “Browse *:80”
 
 
 <h2>Configure Service-Level Agreement (SLA)</h2>
-<h4>- Open Heidi SQL</h4>
+<h4>-Admin Panel -> Manage -> SLA</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
-<h4>- Create a new session, root/Password1</h4>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-<h4>- Connect to the session</h4>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-<h4>- Create a database called “osTicket”</h4>
+<h4>- Sev-A (1 hour, 24/7), Sev-B (4 hours, 24/7), Sev-C (8 hours, business hours)  </h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
@@ -136,22 +122,15 @@ On the right, click “Browse *:80”
 
 
 <h2>Configure Help Topics</h2>
-<h4>- MySQL Database: osTicket</h4>
+<h4>- Admin Panel -> Manage -> Help Topics</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
-<h4>- MySQL Username: root</h4>
+<h4>- Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
-<h4>- MySQL Password: Password1</h4>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-</p>
-<h4>- Click “Install Now!”</h4>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-</p>
+
 <br />
 
 
