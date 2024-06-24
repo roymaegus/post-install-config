@@ -27,7 +27,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - IIS (Internet Information Service)
 
 
-<h2>Installation Steps</h2>
+<h2>Configure Roles</h2>
 <h4>Step 1 -  Download osTicket from the Installation Files Folder</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
@@ -49,7 +49,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<h2>Go to sites -> Default -> osTicket</h2>
+<h2>Configure Departments</h2>
 On the right, click “Browse *:80”
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
@@ -57,7 +57,7 @@ On the right, click “Browse *:80”
 <br />
 
 
-<h2>Enable extensions</h2>
+<h2>Configure Teams</h2>
 <h4>Go back to IIS, sites -> Default -> osTicket</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
@@ -77,7 +77,7 @@ On the right, click “Browse *:80”
 </p>
 <br />
 
-<h2>Rename: ost-config.php</h2>
+<h2>Allow anyone to create tickets</h2>
 <h4>- From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
@@ -89,7 +89,7 @@ On the right, click “Browse *:80”
 <br />
 
 
-<h2>Assign Permissions</h2>
+<h2>Configure Agents (workers)</h2>
 <h4>- Disable inheritance -> Remove All</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
@@ -101,7 +101,7 @@ On the right, click “Browse *:80”
 <br />
 
 
-<h2>Continue Setting up osTicket in the browser (click Continue)</h2>
+<h2>Configure Users (customers)</h2>
 <h4>- Name Helpdesk</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
@@ -113,7 +113,7 @@ On the right, click “Browse *:80”
 <br />
 
 
-<h2>From the Installation Files, download and install HeidiSQL</h2>
+<h2>Configure Service-Level Agreement (SLA)</h2>
 <h4>- Open Heidi SQL</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
@@ -135,7 +135,7 @@ On the right, click “Browse *:80”
 <br />
 
 
-<h2>Continue Setting up osticket in the browser</h2>
+<h2>Configure Help Topics</h2>
 <h4>- MySQL Database: osTicket</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
