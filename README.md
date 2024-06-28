@@ -28,11 +28,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <h2>Configure Roles</h2>
-<h4>Step 1 -  Admin Panel -> Agents -> Roles</h4>
+<h4>Admin Panel -> Agents -> Roles</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
-<h4>Step 2 - Supreme Admin</h4>
+<h4>Supreme Admin</h4>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
