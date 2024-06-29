@@ -20,24 +20,25 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
-
-- Virtual Machine of Windows 10
-- Microsoft Remote Desktop
-- IIS (Internet Information Service)
-
 <h2>Configure Roles</h2>
-<h4>Admin Panel -> Agents -> Roles</h4>
-<h4>Supreme Admin</h4>
-<p>
+
+<h5>Got to the admin panel</h5>
 <img src="images/1-configure-roles/1 - gotToAdmin.PNG" alt="gotToAdmin" width="50%" height="50%">
+<h5>Select Agents panel</h5>
 <img src="images/1-configure-roles/2 - adminPageAgents.PNG" alt="adminPageAgents" width="50%" height="50%">
+<h5>Select roles catagory</h5>
 <img src="images/1-configure-roles/3 - adminPageAgentsRoles.PNG" alt="adminPageAgentsRoles" width="50%" height="50%">
+<h5>Select Add New Role</h5>
 <img src="images/1-configure-roles/4 - addNewRole.PNG" alt="addNewRole" width="50%" height="50%">
+<h5>We will call this role "Supreme Admin"</h5>
 <img src="images/1-configure-roles/5 - supremeAdmin.PNG" alt="supremeAdmin" width="50%" height="50%">
+<h5>Go to the Permissions tab and select all options then click add role</h5>
 <img src="images/1-configure-roles/6 - permissions.PNG" alt="permissions" width="50%" height="50%">
+<h5>Let's improve the Supreme Admin's capabilities. Select Supreme Admin</h5>
 <img src="images/1-configure-roles/7 - selectSupremeAdmin.PNG" alt="selectSupremeAdmin" width="50%" height="50%">
+<h5>Go to the Tasks tab and selct all the options then click Save Changes</h5>
 <img src="images/1-configure-roles/8 - addMorePermissions.PNG" alt="addMorePermissions" width="50%" height="50%">
+
 <p>
 <br />
 
@@ -45,9 +46,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h4>Admin Panel -> Agents -> Departments</h4>
 <h4>System Administrators</h4>
 <p>
+<h5>From the Agents tab go to the departments catagory</h5>
 <img src="images/2-configueDepartments/1 - departments.PNG" alt="departments" width="50%" height="50%">
+<h5>Click Add New Department button</h5>
 <img src="images/2-configueDepartments/2 - addNewDepartment.PNG" alt="addNewDepartment" width="50%" height="50%">
+<h5>Use teh name "System Administrator"</h5>
 <img src="images/2-configueDepartments/3 - form.PNG" alt="form" width="50%" height="50%">
+<h5>Here's our new department </h5>
 <img src="images/2-configueDepartments/4 - departmentCreated.PNG" alt="departmentCreated" width="50%" height="50%">
 </p>
 <br />
@@ -58,8 +63,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h4>Level I Support</h4>
 <h4>Level II Support</h4>
 <p>
+ <h5>From the Agents tab go to the Teams catagory</h5> 
 <img src="images/3-configureTeams/1 - clickTeams.PNG" alt="clickTeams" width="50%" height="50%">
+<h5>Seect Add New Team button</h5>
 <img src="images/3-configureTeams/2 - addNewTeam.PNG" alt="addNewTeam" width="50%" height="50%">
+<h5>Let's add ourselves as a team member and click create team button</h5>
 <img src="images/3-configureTeams/3 - teamCreation.PNG" alt="teamCreation" width="50%" height="50%">
 </p>
 <br />
