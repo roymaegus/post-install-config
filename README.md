@@ -116,13 +116,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h5>Go to the Manage tab and select SLA catagory</h5>
 <img src="images/7-configure-sla/2 - manageSLA.PNG" alt="manageSLA" width="50%" height="50%">
 <h5>Click Add New SLA Plan</h5>
+<h5>Let's create SEV-A, SEV-B, and SEV-C SLA plans</h5>
 <h5>Add a the severity level, a grace period to determine how long you have to respond, and a schedule type, then click Add Plan</h5>
 <h5>The combination of these 3 options determines how you will prioritze tasks</h5>
+<br />
+<h5>SEV-A</h5>
 <img src="images/7-configure-sla/3 - addSLA.PNG" alt="addSLA" width="50%" height="50%">
 <img src="images/7-configure-sla/4 - newSLAForm.PNG" alt="newSLAForm" width="50%" height="50%">
-<img src="images/7-configure-sla/4 - newSLAForm.PNG" alt="newSLAForm" width="50%" height="50%">
+<h5>SEV-B</h5>
 <img src="images/7-configure-sla/5 - add SEV B.PNG" alt="add SEV B" width="50%" height="50%">
 <img src="images/7-configure-sla/6 - sevBForm.PNG" alt="sevBForm" width="50%" height="50%">
+ <h5>SEV-C</h5> 
 <img src="images/7-configure-sla/7 - addSEVC.PNG" alt="addSEVC" width="50%" height="50%">
 <img src="images/7-configure-sla/8 - sevCForm.PNG" alt="sevCForm" width="50%" height="50%">
 </p>
