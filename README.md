@@ -30,12 +30,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h4>Admin Panel -> Agents -> Roles</h4>
 <h4>Supreme Admin</h4>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-<h4>Reload IIS (Open IIS, Stop and Start the server)</h4>
-<p>
 <img src="images/1-configure-roles/1 - gotToAdmin.PNG" alt="gotToAdmin" width="50%" height="50%">
 <img src="images/1-configure-roles/2 - adminPageAgents.PNG" alt="adminPageAgents" width="50%" height="50%">
 <img src="images/1-configure-roles/3 - adminPageAgentsRoles.PNG" alt="adminPageAgentsRoles" width="50%" height="50%">
@@ -44,7 +38,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="images/1-configure-roles/6 - permissions.PNG" alt="permissions" width="50%" height="50%">
 <img src="images/1-configure-roles/7 - selectSupremeAdmin.PNG" alt="selectSupremeAdmin" width="50%" height="50%">
 <img src="images/1-configure-roles/8 - addMorePermissions.PNG" alt="addMorePermissions" width="50%" height="50%">
-</p>
+<p>
 <br />
 
 <h2>Configure Departments</h2>
