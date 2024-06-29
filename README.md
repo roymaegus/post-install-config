@@ -76,19 +76,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h4>- Admin Panel -> Settings -> User Settings</h4>
 <h4>- Registration Required: Require registration and login to create tickets </h4>
 <p>
+<h5>Go to Settings tab, Users catagory, and make sure the registration requierd options is NOT checked</h5>
 <img src="images/4-allowTicketCreation/1 - userForm.PNG" alt="userForm" width="50%" height="50%">
-<img src="images/4-allowTicketCreation/2 - verifyUncheckedBox.PNG" alt="verifyUncheckedBox" width="50%" height="50%">
-<br />
-
 
 <h2>Configure Agents (workers)</h2>
 <h4>- Admin Panel -> Agents -> Add New</h4>
 <h4>-Jane and John</h4>
 <p>
+ <h5>Select the Agents tab, then the Agents catagory, then select Add New Agent button</h5>
 <img src="images/5-configureAgents/1 - goToAgents.PNG" alt="goToAgents" width="50%" height="50%">
+<h5>Fill in the user's basic info</h5>
 <img src="images/5-configureAgents/2 - provideInfo.PNG" alt="provideInfo" width="50%" height="50%">
+<h5>Uncheck the top box to add your password</h5>
 <img src="images/5-configureAgents/3 - setPassword.PNG" alt="setPassword" width="50%" height="50%">
+<h5>For our new agent we will select the department System Administrators and give the "Supreme Admin" capabilities</h5>
 <img src="images/5-configureAgents/4 - setAccess.PNG" alt="setAccess" width="50%" height="50%">
+<h5>Select the Teams tab and select level 2</h5>
 <img src="images/5-configureAgents/5 - assignTeam.PNG" alt="assignTeam" width="50%" height="50%">
 </p>
 <br />
@@ -98,7 +101,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h4>- Agent Panel -> Users -> Add New</h4>
 <h4>- Karen and Ken</h4>
 <p>
+<h5></h5>
 <img src="images/6-configureUsers/1 - newUser.PNG" alt="newUser" width="50%" height="50%">
+<h5></h5>
 <img src="images/6-configureUsers/2 - userKaren.PNG" alt="userKaren" width="50%" height="50%">
 <br />
 
@@ -106,9 +111,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Configure Service-Level Agreement (SLA)</h2>
 <h4>-Admin Panel -> Manage -> SLA</h4>
 <p>
+ <h5>Click the Admin Panel link</h5>
 <img src="images/7-configure-sla/1 - goToAdmin.PNG" alt="goToAdmin" width="50%" height="50%">
+<h5>Go to the Manage tab and select SLA catagory</h5>
 <img src="images/7-configure-sla/2 - manageSLA.PNG" alt="manageSLA" width="50%" height="50%">
+<h5>Click Add New SLA Plan</h5>
+<h5>Add a the severity level, a grace period to determine how long you have to respond, and a schedule type, then click Add Plan</h5>
+<h5>The combination of these 3 options determines how you will prioritze tasks</h5>
 <img src="images/7-configure-sla/3 - addSLA.PNG" alt="addSLA" width="50%" height="50%">
+<img src="images/7-configure-sla/4 - newSLAForm.PNG" alt="newSLAForm" width="50%" height="50%">
 <img src="images/7-configure-sla/4 - newSLAForm.PNG" alt="newSLAForm" width="50%" height="50%">
 <img src="images/7-configure-sla/5 - add SEV B.PNG" alt="add SEV B" width="50%" height="50%">
 <img src="images/7-configure-sla/6 - sevBForm.PNG" alt="sevBForm" width="50%" height="50%">
