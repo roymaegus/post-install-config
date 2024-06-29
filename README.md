@@ -135,17 +135,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <h2>Configure Help Topics</h2>
-<h4>- Admin Panel -> Manage -> Help Topics</h4>
-<h4>- Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset</h4>
+<h5>Go to the Manage tab, select Help Topics catagory, click Add New Topic button</h5>
 <p>
 <img src="images/8-configureHelpTopics/1 - goToHelp.PNG" alt="goToHelp" width="50%" height="50%">
+<h5>Let's make topics for the following situations: </h5>
+<h5>Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset</h5>
 <img src="images/8-configureHelpTopics/2 - BizOutage.PNG" alt="BizOutage" width="50%" height="50%">
 <br />
 
-
-<h2>Congratulations, hopefully it is installed with no errors!</h2>
-<h4>- Browse to your help desk login page: http://localhost/osTicket/scp/login.php</h4>
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
